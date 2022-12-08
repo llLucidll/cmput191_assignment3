@@ -18,5 +18,7 @@ Analyzing the difference in price compared to Canada, I theorized that maybe Can
 
 I ran the correlation function to find out if there was a correlation between the distance between the countries and the manufacturing hub and the price of the GPU however, the correlation coefficient was below 0.5 which would mean this factor wasn't exactly the main deciding factor of the price.
 
+![corr](price_graph.jpg "price")
+
 Thinking about it in retrospect I think there is a more complex factor at play like the economy of each country and the strength of the currency or the impact of something like the global semiconductor shortage. Of course there also is the possibility that shipping routes are handled differently and are a mix of land and sea routes. Maybe for Canada the GPU's are shipped to the US first and driven to Canada which would hike the price considerably as cargo ships are extremely cost efficient while cargo trucks are not.
 
