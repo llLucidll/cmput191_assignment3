@@ -8,6 +8,15 @@ Now to get pricing data from different countries, Nvidia isn't a central vendor 
 
 ![newegg](newegg.jpg "NEWEGG")
 
-After converting all the prices from the local currencies to Canadian dollars using the CurrencyScoop API, and graphing the differences in price, somewhat of a pattern seemed to be present but there were a few outliers present that could not be explained namely the price in Canada being so high compared to the neighbor the US.
+After converting all the prices from the local currencies to Canadian dollars using the CurrencyScoop API, and graphing the differences in price, somewhat of a pattern seemed to be present but there were a few outliers present that could not be explained.
 
+![price difference](price_diff.jpg "DIFF")
+
+Analyzing the difference in price compared to Canada, I theorized that maybe Canada had such a high price because of the large shipping distance from the manufacturing hubs of the GPU (based mainly in China and Taiwan).
+
+![distance](distance.jpg "dist")
+
+I ran the correlation function to find out if there was a correlation between the distance between the countries and the manufacturing hub and the price of the GPU however, the correlation coefficient was below 0.5 which would mean this factor wasn't exactly the main deciding factor of the price.
+
+Thinking about it in retrospect I think there is a more complex factor at play like the economy of each country and the strength of the currency or the impact of something like the global semiconductor shortage. Of course there also is the possibility that shipping routes are handled differently and are a mix of land and sea routes. Maybe for Canada the GPU's are shipped to the US first and driven to Canada which would hike the price considerably as cargo ships are extremely cost efficient while cargo trucks are not.
 
